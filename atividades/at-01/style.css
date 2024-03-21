@@ -1,0 +1,24 @@
+h1, h2{
+    text-transform: uppercase;
+}
+
+header{
+    background-color: rgb(105, 105, 105);
+}
+
+nav{
+    background-color: rgb(169, 169, 169);
+}
+
+main{
+    background-color: aqua;
+}
+
+aside{
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
