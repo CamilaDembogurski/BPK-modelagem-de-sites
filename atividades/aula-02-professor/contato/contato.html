@@ -20,33 +20,32 @@
         </ul>
     </nav>
     <main>
-        <h2>Main Content</h2>
-        <p>Esta é a página de contato.</p>
-        <section>
-            <h3>Section 1</h3>
-            <p>Espaço reservado para a seção 1.</p>
-        </section>
-        <hr>
-        <section class="blue">
-            <h3>Section 2</h3>
-            <p>Espaço reservado para a seção 2.</p>        
-        </section>
-    </main>
-    <aside>
-        <h2>Tópicos importantes</h2>
-        <ul>
-            <li><a href="">Tópico 1</a></li>
-            <li><a href="">Tópico 2</a></li>
-            <li><a href="">Tópico 3</a></li>
-        </ul>
+        <h2>Entre em contato conosco</h2>
+        
+        <form action="">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name">
+            </div>
 
-        <h2>Links Úteis</h2>
-        <ul>
-            <li><a href="https://www.google.com.br/?hl=pt-BR" target="_blank">Google</a></li>
-            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-            <li><a href="https://br.linkedin.com/" target="">Linkedin</a></li>
-        </ul>
-    </aside>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail">
+            </div>
+
+            <div>
+                <label for="phone">Telefone:</label>
+                <input type="text" id="phone">
+            </div>
+
+            <div class="bigger">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" cols="39" rows="10"></textarea>
+            </div>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
     <footer>
         <h2>Footer</h2>
         <p>This is the footer of the page.</p>
