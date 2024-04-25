@@ -35,41 +35,50 @@ nav a{
     color: #597dff;
 }
 
-main, aside{
+main{
     padding: 2rem;
-    display: inline-block;
     background-color: #e6e6e6;
     line-height: 2rem;
-}
-
-main{
-    width: 60%;
-    border-right: 2px solid #fff;
+    width: 80%;
+    margin: auto;
 }
 
 section{
-    background-color: #333;
-    color: #fff;
     padding: 1rem .5rem;
     margin: 1rem 0;
+}
+
+table{
+    border: 1px solid #000;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead{
+    height: 2rem;
+    padding: 2rem;
+    background-color: #c7c7c7;
+}
+
+table tbody{
+    padding: 2rem;
+}
+
+table td{
+    height: 4rem;
+}
+
+table td, th{
+    border: 1px solid #000;
+    padding: 0 1rem;
 }
 
 .blue{
     background-color: rgb(0, 0, 255);
 }
 
-aside{
-    width: 30%;
-    line-height: 2.4rem;
-    vertical-align: top;
-}
-
-aside ul{
-    margin-left: 3rem;
-}
-
-@media (max-width: 1370px){
-    main{
-        width: 50%;
+@media (max-width: 1200px){
+    table{
+        transform: scale(.9);
     }
 }

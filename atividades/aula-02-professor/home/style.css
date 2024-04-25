@@ -96,3 +96,17 @@ aside ul{
         width: 50%;
     }
 }
+
+@media (max-width: 725px){
+    main{
+        display: block;
+        width: 80%;
+        border: none;
+        margin: auto;
+    }
+    aside{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+}
